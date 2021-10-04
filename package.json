@@ -1,11 +1,10 @@
 {
-  "name": "gatsby-plugin-scroll-reveal",
-  "version": "0.0.7",
+  "name": "@joyfulelement/gatsby-plugin-scroll-reveal",
+  "version": "0.0.8",
   "description": "Animate DOM elements on scroll changes.",
-  "repository": "https://github.com/solublestudio/gatsby-plugin-scroll-reveal",
-  "homepage": "https://github.com/solublestudio/gatsby-plugin-scroll-reveal#readme",
-  "bugs": {
-    "url": "https://github.com/solublestudio/gatsby-plugin-scroll-reveal/issues"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joyfulelement/gatsby-plugin-scroll-reveal.git"
   },
   "keywords": [
     "gatsby",
@@ -23,8 +22,8 @@
   "author": "Soluble Studio <tech@solublestudio.com>",
   "license": "MIT",
   "dependencies": {
-    "sal.js": "^0.6.2",
-    "intersection-observer": "^0.7.0"
+    "sal.js": "^0.8.5",
+    "intersection-observer": "^0.12.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.2",
@@ -32,6 +31,6 @@
   },
   "peerDependencies": {
     "gatsby": ">=2.0.0",
-    "react": "^16.8.0"
+    "react": ">=16.8.0"
   }
 }
