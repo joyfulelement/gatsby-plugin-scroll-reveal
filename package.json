@@ -1,6 +1,6 @@
 {
   "name": "@joyfulelement/gatsby-plugin-scroll-reveal",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Animate DOM elements on scroll changes.",
   "repository": {
     "type": "git",
@@ -30,7 +30,8 @@
     "@babel/core": "^7.6.2"
   },
   "peerDependencies": {
-    "gatsby": ">=2.0.0",
-    "react": ">=16.8.0"
+    "gatsby": "^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0",
+    "react": "^18.0.0 || ^0.0.0",
+    "react-dom": "^18.0.0 || ^0.0.0"
   }
 }
